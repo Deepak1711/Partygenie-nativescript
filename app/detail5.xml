@@ -1,0 +1,24 @@
+<Page  xmlns="http://schemas.nativescript.org/tns.xsd">
+	<StackLayout>
+		<Label text="CheckList" class="head" />
+		<Label />
+		<StackLayout orientation="horizontal">
+		<switch style="horizontal-align: center"/>
+		<Label text="Food" style="font-size:25"/>
+	    </StackLayout>
+	    <StackLayout orientation="horizontal">
+		<switch />
+		<Label text="Liquor" style="font-size:25"/>
+	    </StackLayout>
+	    <StackLayout orientation="horizontal">
+		<switch />
+		<Label text="Invitation" style="font-size:25"/>
+	    </StackLayout>
+	    <StackLayout orientation="horizontal">
+		<switch />
+		<Label text="Cleaning" style="font-size:25"/>
+	    </StackLayout>
+	    <Label />
+	    <Button text="OK" />
+	</StackLayout>
+</Page>

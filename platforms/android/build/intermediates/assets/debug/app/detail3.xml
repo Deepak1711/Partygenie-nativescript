@@ -1,0 +1,23 @@
+<Page  xmlns="http://schemas.nativescript.org/tns.xsd">
+	<StackLayout>
+		<TextField hint="Venue" autocorrect="false" />
+		<TextField hint="Date" autocorrect="false"/>
+		<TextField hint="Time" />
+		<StackLayout orientation="horizontal">
+			<Label text="Food Type" style="font-size:18" />
+            <Switch />
+            <Label text="Veg" style="font-size:18" />
+            <switch />
+            <Label text="Non Veg" style="font-size:15" />
+        </StackLayout>
+        <StackLayout orientation="horizontal">
+			<Label text="Liquor" style="font-size:18" />
+            <Switch />
+            <Label text="Alcoholic" style="font-size:18" />
+            <switch />
+            <Label text="Non Alcoholic" style="font-size:15" />
+        </StackLayout>
+        <TextField hint="No of People" autocorrect="false"/>
+        <Button text="Submit" tap="OnSubmit" />
+	</StackLayout>
+</Page>

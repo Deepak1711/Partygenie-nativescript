@@ -1,0 +1,10 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo">
+  <StackLayout>
+   	<Image src="https://www.nativescript.org/images/default-source/landingpages/logo.png" height="150" width="150" horizontalAlignment="center"/>
+   	<Label text="Partygeine" class="head"/>
+	<TextField id="username" hint="Username" autocorrect="false"/>
+	<TextField hint="Password" secure="true" />
+	<Button text="Sign In" tap="Onsign" />
+	<Button text="Sign Up" tap="Registering" />
+  </StackLayout>
+</Page>

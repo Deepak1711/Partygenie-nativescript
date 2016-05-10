@@ -1,0 +1,12 @@
+<Page  xmlns="http://schemas.nativescript.org/tns.xsd">
+	<StackLayout>
+    <Label class="head" text="Invitation"/>
+    <TextField hint="Invitation Message" autocorrect="false"/>
+    <Label />
+    <Label text="Guest details"/>
+    <TextField hint="Email" autocorrect="false"/>
+    <TextField hint="Phone" autocorrect="false"/>
+    <Label />
+    <Button text="Send Invitation" tap="OnSubmit"/>
+	</StackLayout>
+</Page>

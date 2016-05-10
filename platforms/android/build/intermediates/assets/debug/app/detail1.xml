@@ -1,0 +1,15 @@
+<Page  xmlns="http://schemas.nativescript.org/tns.xsd">
+	<StackLayout>
+		<Label text="Partygenie" class="head"/>
+		<TextField id="first_name" hint="Firstname" autocorrect="false" />
+		<TextField id="last_name" hint="Lastname" autocorrect="false" />
+		<TextField id="mob" hint="Contact" autocorrect="false" />
+		<TextField id="email" hint="Email" autocorrect="false" />
+		<TextField id="password" hint="Password" autocorrect="false" />
+		<StackLayout orientation="horizontal">
+		<Switch  style="horizontal-align: left"/>
+		<Label text="Accept terms and conditions" style="font-size:20"/>
+	     </StackLayout>
+		<Button text="Submit" tap="OnSubmit"/>
+	</StackLayout>
+</Page>
