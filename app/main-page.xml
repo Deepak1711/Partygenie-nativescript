@@ -6,5 +6,7 @@
 	<TextField hint="Password" secure="true" />
 	<Button text="Sign In" tap="Onsign" />
 	<Button text="Sign Up" tap="Registering" />
+	<Label />
+	<Label text="Problem Signing In?" class="lb" tap="OnRec"/>
   </StackLayout>
 </Page>

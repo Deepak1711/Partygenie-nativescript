@@ -5,6 +5,7 @@
     <TextField hint="Email" />
 	<TextField hint="Username" autocorrect="false" />
 	<TextField hint="Password" secure="true" />
-	<Button text="Submit" tap="onSubmit"/>
+	<Button text="Submit" tap="OnSubmit"/>
+    
 	</StackLayout>
 </page>

@@ -3,20 +3,20 @@
 		<Label text="CheckList" class="head" />
 		<Label />
 		<StackLayout orientation="horizontal">
-		<switch style="horizontal-align: center"/>
-		<Label text="Food" style="font-size:25"/>
+		<Switch class="sw"/>
+		<Label text="Food" style="font-size:25;margin:10"/>
 	    </StackLayout>
 	    <StackLayout orientation="horizontal">
-		<switch />
-		<Label text="Liquor" style="font-size:25"/>
+		<Switch class="sw"/>
+		<Label text="Liquor" style="font-size:25;margin:10"/>
 	    </StackLayout>
 	    <StackLayout orientation="horizontal">
-		<switch />
-		<Label text="Invitation" style="font-size:25"/>
+		<Switch class="sw"/>
+		<Label text="Invitation" style="font-size:25;margin:10"/>
 	    </StackLayout>
 	    <StackLayout orientation="horizontal">
-		<switch />
-		<Label text="Cleaning" style="font-size:25"/>
+		<Switch class="sw"/>
+		<Label text="Cleaning" style="font-size:25;margin:10"/>
 	    </StackLayout>
 	    <Label />
 	    <Button text="OK" />

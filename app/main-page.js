@@ -17,4 +17,9 @@ exports.Registering=function(){
     topmost.navigate("register");
 }
 
+exports.OnRec=function(){
+	var topmost=frameModule.topmost();
+    topmost.navigate("recover");
+}
+
 exports.onNavigatingTo = onNavigatingTo;

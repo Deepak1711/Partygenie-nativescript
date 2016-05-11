@@ -1,8 +1,15 @@
-<Page  xmlns="http://schemas.nativescript.org/tns.xsd" xmlns:MDL="nativescript-materialdropdownlist">
+<Page  xmlns="http://schemas.nativescript.org/tns.xsd" loaded="deepak">
 	<StackLayout>
 		<Label class="head" text="Party Details" />
 		<TextField id="title" hint="Title" autocorrect="false" />
 		<TextField id="first_name" hint="Description" autocorrect="false" />
+		<Label />
+		<Label text="Type Of Party" class="head1"/>
+		<ListView items="{{ items }}" height="200" class="sw" style="font-size:20;margin:10">
+            <ListView.itemTemplate>
+                <Label text="{{ $value }}" />
+            </ListView.itemTemplate>
+        </ListView>
         <Button text="Submit" tap="OnSubmit"/>
 	</StackLayout>
 </Page>

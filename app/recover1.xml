@@ -1,0 +1,9 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd">
+	<StackLayout>
+		<Label />
+		<TextField hint="Enter new password" autoCorrect="false"/>
+		<TextField hint="Confirm new password" autoCorrect="false"/>
+        <Label />
+        <Button text="Change password" tap="OnRec"/>
+	</StackLayout>
+</Page>

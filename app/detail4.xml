@@ -3,7 +3,8 @@
     <Label class="head" text="Invitation"/>
     <TextField hint="Invitation Message" autocorrect="false"/>
     <Label />
-    <Label text="Guest details"/>
+    <Label />
+    <Label text="Guest details" class="head1"/>
     <TextField hint="Email" autocorrect="false"/>
     <TextField hint="Phone" autocorrect="false"/>
     <Label />
