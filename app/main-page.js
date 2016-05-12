@@ -9,7 +9,7 @@ function onNavigatingTo(args) {
 
 exports.Onsign=function(){
 	var topmost=frameModule.topmost();
-    topmost.navigate("detail1");
+    topmost.navigate("detail2");
 }
 
 exports.Registering=function(){

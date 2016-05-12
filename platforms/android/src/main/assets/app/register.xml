@@ -1,10 +1,18 @@
-<page>
-	<StackLayout orientation="vertical">
-    <TextField hint="Name" />
-    <TextField hint="Phone no" />
-    <TextField hint="Email" />
-	<TextField hint="Username" autocorrect="false" />
-	<TextField hint="Password" secure="true" />
-	<Button text="Submit" tap="onSubmit"/>
+<Page  xmlns="http://schemas.nativescript.org/tns.xsd">
+	<StackLayout>
+		<Label text="Partygenie" class="head"/>
+		<TextField id="first_name" hint="Firstname" autocorrect="false" />
+		<TextField id="last_name" hint="Lastname" autocorrect="false" />
+		<TextField id="mob" hint="Contact" autocorrect="false" />
+		<TextField id="email" hint="Email" autocorrect="false" />
+		<TextField id="password" hint="Password" autocorrect="false" />
+		<Label />
+		<StackLayout orientation="horizontal">
+		<Switch  style="horizontal-align: left;margin:10"/>
+		<Label text="Accept" style="font-size:20;margin:10"/>
+		<Label text="terms and conditions" style="font-size:20;margin:10;text-decoration: underline" tap="OnRead"/>
+        </StackLayout>
+	    <Label />
+		<Button text="Submit" tap="OnSubmit"/>
 	</StackLayout>
-</page>
+</Page>

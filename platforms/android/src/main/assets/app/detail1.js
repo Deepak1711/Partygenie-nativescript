@@ -5,3 +5,8 @@ exports.OnSubmit=function(){
 	var topmost=frameModule.topmost();
     topmost.navigate("detail2");
 }
+
+exports.OnRead=function(){
+	var topmost=frameModule.topmost();
+    topmost.navigate("terms");
+}

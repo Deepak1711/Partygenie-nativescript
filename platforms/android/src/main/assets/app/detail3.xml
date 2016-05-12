@@ -4,18 +4,18 @@
 		<TextField hint="Date" autocorrect="false"/>
 		<TextField hint="Time" />
 		<StackLayout orientation="horizontal">
-			<Label text="Food Type" style="font-size:18" />
-            <Switch />
-            <Label text="Veg" style="font-size:18" />
-            <switch />
-            <Label text="Non Veg" style="font-size:15" />
+			<Label text="Food Type" style="font-size:18;margin:10" />
+            <Switch class="sw"/>
+            <Label text="Veg" style="font-size:18;margin:10" />
+            <Switch class="sw"/>
+            <Label text="Non Veg" style="font-size:15;margin:10" />
         </StackLayout>
         <StackLayout orientation="horizontal">
-			<Label text="Liquor" style="font-size:18" />
-            <Switch />
-            <Label text="Alcoholic" style="font-size:18" />
-            <switch />
-            <Label text="Non Alcoholic" style="font-size:15" />
+			<Label text="Liquor" style="font-size:18;margin:10" />
+            <Switch class="sw"/>
+            <Label text="Alcoholic" style="font-size:18;margin:10" />
+            <Switch class="sw"/>
+            <Label text="Non Alcoholic" style="font-size:15;margin:10" />
         </StackLayout>
         <TextField hint="No of People" autocorrect="false"/>
         <Button text="Submit" tap="OnSubmit" />

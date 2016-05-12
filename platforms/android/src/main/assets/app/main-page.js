@@ -9,12 +9,17 @@ function onNavigatingTo(args) {
 
 exports.Onsign=function(){
 	var topmost=frameModule.topmost();
-    topmost.navigate("detail1");
+    topmost.navigate("detail2");
 }
 
 exports.Registering=function(){
 	var topmost=frameModule.topmost();
     topmost.navigate("register");
+}
+
+exports.OnRec=function(){
+	var topmost=frameModule.topmost();
+    topmost.navigate("recover");
 }
 
 exports.onNavigatingTo = onNavigatingTo;

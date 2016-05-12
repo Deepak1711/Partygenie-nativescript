@@ -1,0 +1,12 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd">
+	<StackLayout>
+		<Label />
+		<Label />
+		<Label text="Enter the registered email:" style="font-size:22"/>
+		<Label />
+		<TextField autoCorrect="false"/>
+		<Label />
+		<Label />
+		<Button text="Recover Password" tap="OnRec"/>
+	</StackLayout>
+</Page>
